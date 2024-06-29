@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: inherit;
+}
+.login_main{
+    width: 100vw;
+    height: 100vh;
+    background-color:#242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* color:dodgerblue; */
+}
+button {
+    color: dodgerblue;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    padding: 10px 55px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins";
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin-top: 10px;
+  }
+  button:hover {
+    border-color: #646cff;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+.login_form{
+    height: 500px;
+    width: 380px;
+    background: rgba(255, 255, 255, 0.043);
+    backdrop-filter: blur( 16px );
+    -webkit-backdrop-filter: blur( 16px );
+    border-radius: 10px;
+    /* border: 2px solid rgba( 255, 255, 255, 0.18 ); */
+    transition: all 0.40s;
+}
+.login_form:hover{
+    border: 1px solid;
+    border-color: #646cff;
+    box-shadow: 0px 0px 50px  rgba(100, 108, 255, 0.150);
+    background: rgba(31, 38, 135, 0.05);
+}
+.login_form:focus,
+.login_form:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+.login_h1{
+    font-family: "Dancing Script", cursive;
+    color: dodgerblue;
+    font-size: 4rem;
+    margin-top: 25px;
+    transition: all 0.40s;
+}
+.login_h3{
+    font-family: "Poppins";
+    color: white;
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+.login_h4{
+    font-family: "Poppins";
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+.login_h2{
+    margin-top: 15px;
+    font-family: "Sedan", serif;
+    font-size: 0.7rem;
+    color: #ffffffe1;
+}
+.line{
+    background-color: white;
+    height: 3px;
+    width :70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.lynx_span{
+    color: dodgerblue;
+    transition: all 0.40s;
+}
+.email_input{
+    margin-top: 20px;
+    padding: 10px 10px;
+    border: 2px solid transparent;
+    width: 280px;
+    border-radius: 7px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #1a1a1a;
+    color: white;
+    outline: none;
+    transition: all 0.25s;
+}
+.email_input:hover{
+    border-color: #646cff;
+}
+.email_input:focus,
+.email_input:focus-visible{
+    border-color: #646cff;
+}
+.pass_input{
+    margin-top: 7px;
+    margin-right: 7px;
+    padding: 10px 10px;
+    border: 2px solid transparent;
+    width: 190px;
+    border-radius: 7px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #1a1a1a;
+    color: white;
+    outline: none;
+    transition: all 0.25s;
+}
+.pass_input:hover{
+    border-color: #646cff;
+}
+.pass_input:focus,
+.pass_input:focus-visible{
+    border-color: #646cff;
+}
+.sign_in {
+    color: #DE3163;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Poppins";
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: color 0.4s, border-color 0.25s;
+    margin-top: 7px;
+  }
+  .sign_in:hover {
+    border-color: #646cff;
+  }
+  .sign_in:focus,
+  .sign_in:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  .or{
+    margin-top: 10px;
+    color: #000000;
+  }
